@@ -4,5 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Autofac.WebApi2" Version="6.0.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FizzBuzz.DomainModels\FizzBuzz.DomainModels.csproj" />
+    <ProjectReference Include="..\FizzBuzz.Services\FizzBuzz.Services.csproj" />
+  </ItemGroup>
+
 
 </Project>

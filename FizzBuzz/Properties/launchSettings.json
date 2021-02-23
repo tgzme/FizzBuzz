@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "fizzbuzz",
+      "launchUrl": "api/fizzbuzz/add/?values=3&values=4",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
